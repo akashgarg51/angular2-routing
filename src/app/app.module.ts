@@ -4,6 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { UserDetailComponent } from './user/user-detail.component'
+import { UserEditComponent } from './user/user-edit.component'
+import { UserComponent } from './user/user.component'
+
 
 @NgModule({
   declarations: [
